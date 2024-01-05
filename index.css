@@ -1,0 +1,123 @@
+body {
+    background: white;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family:"Arial" ;
+    font-size: 16px;
+    margin: 0;
+    padding: 0; 
+    border: 10px solid color(srgb rgb(0, 139, 246) green blue);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  #logo
+  
+  {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 4;
+    justify-content: center;
+    align-items: center;
+    background-image:  url("https://images.pexels.com/photos/3643925/pexels-photo-3643925.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    min-width: fit-content; left: auto;
+    vertical-align: middle;
+    background-position-x: center;
+    background-position-y: left;
+    position: absolute;
+    left: 0;
+  
+    
+  }
+
+  img#wphoto
+  {
+    align-items: left;
+    justify-content: left;
+    align-content: left;
+    text-align: left;
+    image-orientation: initial;
+  }
+  
+  #contact
+  {
+    
+    display: grid;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    background: rgb(243, 239, 234);
+    grid-template-columns: 1fr 1fr 1fr;
+    
+  }
+
+  .item
+  {
+    display: grid;
+    flex-direction: column;
+    background: rgb(0, 238, 255);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: auto;
+  }
+ 
+  .item .item:nth-child(3)
+  {
+    
+  }
+
+  #name
+
+  {
+    width: auto;
+    margin: 0px 20px 5px 20px;
+  }
+
+  #email
+  {
+    width: auto;
+    margin: 0px 20px 5px 20px;
+    
+  }
+ #mesage
+  {
+    width: auto;
+    height: 200px;
+    border: 100px 50px 20px 20px;
+    margin: 0px 20px 5px 20px;
+    text-align: start;
+    text-justify: distribute-all-lines;
+    
+
+  }
+#mainbar :hover
+
+  {
+    text-align: center;
+    vertical-align: middle;
+    color: rgb(251, 4, 4);
+
+  }
+
+#mainbar button
+
+{
+  background: rgb(255, 255, 255);
+  margin: 5px;
+  width: 100px;
+  height: 30px;
+}
+
+#footer 
+
+{
+  display: inline-block;
+  flex-direction: column;
+  flex-grow: 4;
+  justify-content:left;
+  align-items: left;
+  background: rgb(255, 255, 255);
+  font-family: 'Courier New', Courier, monospace;
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+}
